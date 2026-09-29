@@ -98,7 +98,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  pwm_set(250);
+  pwm_set(50);
   pwm_start();
   while (1)
   {
