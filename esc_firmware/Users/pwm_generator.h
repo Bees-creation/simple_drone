@@ -10,6 +10,6 @@
 #include "stm32f0xx_ll_tim.h"
 
 void pwm_set(uint16_t pulse);
-void pwm_start();
+void pwm_start(void);
 
 #endif
